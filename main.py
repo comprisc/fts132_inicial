@@ -38,10 +38,12 @@ def calcular_area_de_um_triangulo(base, altura, num3):
 
 #Area = Pi * raio **2
 def calcular_area_do_circulo(raio):
-    return 3.14 * raio ** 2
+    try:
+      return 3.14 * raio ** 2
+    except TypeError:
+        return 'Falha no calculo. Raio não é um número'
 
-
-
+        resultado_esperado =  40
 
 
 
