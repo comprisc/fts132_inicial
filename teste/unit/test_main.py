@@ -35,4 +35,4 @@ def testar_calculo_do_circulo(raio, resultado_esperado):
 
     # 3 - Validar
     assert resultado_atual == resultado_esperado
-#oi
+#oi 12
