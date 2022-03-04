@@ -45,6 +45,13 @@ def calcular_area_do_circulo(raio):
 
         resultado_esperado =  40
 
+def calcular_volume_do_paralelograma(largura, comprimento, altura):
+    return largura * comprimento * altura
+
+
+
+
+
 
 
 #Chamam as funções
